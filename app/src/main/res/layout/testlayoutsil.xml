@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@drawable/ic_hover_layer">
+
+    <ImageView
+        android:id="@+id/imgSongImageHover"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448"
+        app:srcCompat="@drawable/ic_add" />
+
+    <TextView
+        android:id="@+id/txtArtistSongs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/chivo_light"
+        android:text="Rammstein"
+        android:textColor="#FDFDFD"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSongName3"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <TextView
+        android:id="@+id/txtSongName3"
+        android:layout_width="168dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="155dp"
+
+        android:fontFamily="@font/chivo_bold"
+        android:text="Rammstein-Du Hast "
+
+        android:textColor="#FDFDFD"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/txtSongName3"
+        app:srcCompat="@drawable/ic_skippreviousl" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/txtSongName3"
+        app:srcCompat="@drawable/ic_play" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="94dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSongName3"
+        app:srcCompat="@drawable/ic_skipnextl" />
+</androidx.constraintlayout.widget.ConstraintLayout>

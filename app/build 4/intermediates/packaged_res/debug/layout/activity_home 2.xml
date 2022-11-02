@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity" android:tag="layout/activity_home_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            app:layout_constraintBottom_toTopOf="@+id/homeVp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbarPlaylist2"
+            app:tabBackground="@color/black"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/white"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/tabText"
+            app:tabTextColor="@color/white" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarPlaylist2"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="@color/black"
+            android:minHeight="?attr/actionBarSize"
+            android:text=""
+
+            app:theme="@style/Theme.Stmusic"
+            app:layout_constraintBottom_toTopOf="@+id/tabLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:logo="@drawable/ic_logo"
+             />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/homeVp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

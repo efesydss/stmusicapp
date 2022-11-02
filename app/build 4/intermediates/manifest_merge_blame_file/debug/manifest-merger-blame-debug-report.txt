@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.st.stmusic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+11-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:6:5-80
+11-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:7:5-80
+12-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+13-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:8:5-75
+13-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:8:22-72
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:9:5-68
+14-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:9:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/ef/.gradle/caches/transforms-3/a07934c2b9821ca59f69b1eada031efa/transformed/exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+15-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /Users/ef/.gradle/caches/transforms-3/a07934c2b9821ca59f69b1eada031efa/transformed/exoplayer-core-2.18.1/AndroidManifest.xml:24:22-76
+16
+17    <application
+17-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:11:5-41:19
+18        android:allowBackup="true"
+18-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /Users/ef/.gradle/caches/transforms-3/d04e23493a67ba554a3f9e9ed70884da/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:13:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:14:9-54
+24        android:icon="@mipmap/logo_round"
+24-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:15:9-42
+25        android:label="@string/app_name"
+25-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:16:9-41
+26        android:requestLegacyExternalStorage="true"
+26-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:17:9-52
+27        android:roundIcon="@mipmap/logo_round"
+27-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:18:9-47
+28        android:supportsRtl="true"
+28-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Stmusic" >
+30-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:20:9-45
+31        <activity
+31-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:22:9-24:40
+32            android:name="com.st.stmusic.PlayerActivity"
+32-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:23:13-43
+33            android:exported="false" />
+33-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:24:13-37
+34        <activity
+34-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:25:9-27:40
+35            android:name="com.st.stmusic.HomeActivity"
+35-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:26:13-41
+36            android:exported="false" />
+36-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:27:13-37
+37        <activity
+37-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:28:9-36:20
+38            android:name="com.st.stmusic.MainActivity"
+38-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:29:13-41
+39            android:exported="true" >
+39-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:30:13-36
+40            <intent-filter>
+40-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:31:13-35:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:32:17-69
+41-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:32:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:34:17-77
+43-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:34:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:38:9-40:57
+48            android:name="preloaded_fonts"
+48-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:39:13-43
+49            android:resource="@array/preloaded_fonts" />
+49-->/Users/ef/Documents/GitHub/project-stmusic/app/src/main/AndroidManifest.xml:40:13-54
+50
+51        <provider
+51-->[com.squareup.picasso:picasso:2.8] /Users/ef/.gradle/caches/transforms-3/55458ebd1ae55d8cea3bbde87591f37d/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+52            android:name="com.squareup.picasso.PicassoProvider"
+52-->[com.squareup.picasso:picasso:2.8] /Users/ef/.gradle/caches/transforms-3/55458ebd1ae55d8cea3bbde87591f37d/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+53            android:authorities="com.st.stmusic.com.squareup.picasso"
+53-->[com.squareup.picasso:picasso:2.8] /Users/ef/.gradle/caches/transforms-3/55458ebd1ae55d8cea3bbde87591f37d/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+54            android:exported="false" />
+54-->[com.squareup.picasso:picasso:2.8] /Users/ef/.gradle/caches/transforms-3/55458ebd1ae55d8cea3bbde87591f37d/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+55        <provider
+55-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+57            android:authorities="com.st.stmusic.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/ef/.gradle/caches/transforms-3/d880273a8d4e7ac66210531410404812/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ef/.gradle/caches/transforms-3/5b3bd72648c01e939cf53a3b4bef3d85/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ef/.gradle/caches/transforms-3/5b3bd72648c01e939cf53a3b4bef3d85/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ef/.gradle/caches/transforms-3/5b3bd72648c01e939cf53a3b4bef3d85/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+65        </provider>
+66
+67        <uses-library
+67-->[androidx.window:window:1.0.0] /Users/ef/.gradle/caches/transforms-3/df85e9ef604ea8559aea3e3405bcd182/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+68            android:name="androidx.window.extensions"
+68-->[androidx.window:window:1.0.0] /Users/ef/.gradle/caches/transforms-3/df85e9ef604ea8559aea3e3405bcd182/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+69            android:required="false" />
+69-->[androidx.window:window:1.0.0] /Users/ef/.gradle/caches/transforms-3/df85e9ef604ea8559aea3e3405bcd182/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+70        <uses-library
+70-->[androidx.window:window:1.0.0] /Users/ef/.gradle/caches/transforms-3/df85e9ef604ea8559aea3e3405bcd182/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+71            android:name="androidx.window.sidecar"
+71-->[androidx.window:window:1.0.0] /Users/ef/.gradle/caches/transforms-3/df85e9ef604ea8559aea3e3405bcd182/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0] /Users/ef/.gradle/caches/transforms-3/df85e9ef604ea8559aea3e3405bcd182/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+73    </application>
+74
+75</manifest>
